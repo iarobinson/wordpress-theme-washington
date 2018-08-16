@@ -1,0 +1,68 @@
+/*
+
+Theme Name: Washington
+Author: Ian Robinson
+Author URI: https://ianrobinson.net
+Description: Washington is a minimalist theme with a focus on having fast site speed. It's mobile responsive and hyper simple.
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: washington
+Tags: one-column, two-columns, right-sidebar, fist site speed
+
+*/
+
+a {
+  text-decoration: none;
+  color: #cc0000;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.blog-nav li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;	
+}
+
+.blog-nav li a {
+    color: #cc0000;
+}
+
+.container {
+  max-width: 800px; 
+}
+
+.header {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.comment {
+  list-style: none;
+}
+
+.featured-image {
+  width: 100%;
+  height: auto;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
